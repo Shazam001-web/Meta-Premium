@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-ᗰᗴTᗩ ᗷᗩᑎ TOOᒪ ᐯ2 - Ultimate Pro Edition
-Author: 𝕯𝖊𝖛 𝕾𝖍𝖆𝖟𝖆𝖒
+Meta Prem Ban - Ultimate Pro Edition
+Author: Dev Shazam 
 Features: Real number verification, mass reporting, email rotation, proxy support
 """
 
@@ -28,7 +28,7 @@ init(autoreset=True)
 # ===== Crypto Lord Password =====
 
 TOOL_USERNAME = "Meta"
-TOOL_PASSWORD = "Admin"
+TOOL_PASSWORD = "admin"
 
 # ===== GMAIL ACCOUNTS =====
 GMAIL_ACCOUNTS = [
@@ -331,7 +331,7 @@ def mass_report_attack(target_number, report_type, report_count=50):
     selected_pairs = all_pairs[:report_count]
     
     print(Fore.CYAN + f"\n🚀 𝗜𝗻𝗶𝘁𝗶𝗮𝗹𝗶𝘇𝗶𝗻𝗴 {report_type.upper()} 𝗮𝘁𝘁𝗮𝗰𝗸 𝗼𝗻 {target_number}")
-    print(Fore.CYAN + f"🌹 Reports to send: {report_count}")
+    print(Fore.CYAN + f"📊 𝗥𝗲𝗽𝗼𝗿𝘁𝘀 𝘁𝗼 𝘀𝗲𝗻𝗱: {report_count}")
     print(Fore.CYAN + f"📧 𝗨𝘀𝗶𝗻𝗴 {senders} 𝘀𝗲𝗻𝗱𝗲𝗿 𝗮𝗰𝗰𝗼𝘂𝗻𝘁𝘀")
     print(Fore.CYAN + f"🎯 𝗧𝗮𝗿𝗴𝗲𝘁𝗶𝗻𝗴 {targets} 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 𝗲𝗺𝗮𝗶𝗹𝘀")
     print(Fore.YELLOW + "="*60)
@@ -409,4 +409,4 @@ I am submitting this report as a formal cybercrime complaint concerning a WhatsA
 Reported WhatsApp Number:
 {target_number}
 Nature of Complaint:
-The reported account is actively engaging in be
+The reported account is actively engaging in 
